@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
-  base:'/sweb',
+  base:'/sasrmWeb/',
   server: {
     open: true,
     fs: {
