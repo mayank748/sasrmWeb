@@ -1,12 +1,17 @@
-name: Deploy to GitHub Pages
+name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -24,10 +29,8 @@ jobs:
         run: npm run build
         working-directory: sweb
 
-      - name: Deploy
-        run: |
-          npm install -g gh-pages
-          gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
-        env:
-          GH_TOKEN: ${{ secrets.SASRM_TOKEN }}
-        working-directory: sweb
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./sweb/dist
