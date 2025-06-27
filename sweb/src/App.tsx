@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
-import "./App.css";
+import './App.css';
 
 const Header = () => (
   <header className="bg-gray-900 text-white p-4 flex justify-between items-center shadow-md">
@@ -62,7 +62,7 @@ const Contact = () => (
   </section>
 );
 
-export default function App() {
+function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
@@ -80,3 +80,5 @@ export default function App() {
     </Router>
   );
 }
+
+export default App;
