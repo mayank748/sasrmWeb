@@ -6,9 +6,10 @@ import { dirname, resolve } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-export default defineConfig({
+// 👇 Dynamic base config
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: '/sasrmWeb/',
+  base: mode === 'production' ? '/sasrmWeb/' : '/',
   server: {
     open: true,
     fs: {
@@ -25,4 +26,4 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     }
   },
-});
+}));
