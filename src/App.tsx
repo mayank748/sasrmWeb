@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
 import './App.css';
@@ -62,7 +62,7 @@ const Contact = () => (
   </section>
 );
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
@@ -81,4 +81,3 @@ function App() {
   );
 }
 
-export default App;
