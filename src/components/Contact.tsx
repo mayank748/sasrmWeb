@@ -22,14 +22,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+1 (555) 123-4567",
-      subdetails: "+1 (555) 987-6543"
+      details: "+91 (750) 353-727",
+      subdetails: "+91 (750) 353-727"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "123 Corporate Plaza",
-      subdetails: "New York, NY 10001"
+      details: "U-61/15,U- block,Sector 24",
+      subdetails: "Gurugram,Haryana,India,122002"
     },
     {
       icon: Clock,

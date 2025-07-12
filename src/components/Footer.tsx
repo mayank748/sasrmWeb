@@ -114,7 +114,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-primary mt-0.5" />
                 <div>
-                  <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                  <div className="text-muted-foreground">+91 (750) 353-727</div>
                   <div className="text-sm text-muted-foreground">24/7 Support</div>
                 </div>
               </div>
@@ -122,8 +122,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <div>
-                  <div className="text-muted-foreground">123 Corporate Plaza</div>
-                  <div className="text-sm text-muted-foreground">New York, NY 10001</div>
+                  <div className="text-muted-foreground">U-61/15,U-block,Sector 24</div>
+                  <div className="text-sm text-muted-foreground">Gurugram,Haryana,India</div>
                 </div>
               </div>
             </div>
