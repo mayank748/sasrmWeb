@@ -16,14 +16,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "mayank.singh@sasrm.com",
-      subdetails: "info@sasrm.com"
+      details: "help@sasrm.com",
+      subdetails: ""
     },
     {
       icon: Phone,
       title: "Call Us",
       details: "+91 (750) 353-727",
-      subdetails: "+91 (750) 353-727"
+      subdetails: ""
     },
     {
       icon: MapPin,
