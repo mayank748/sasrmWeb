@@ -106,8 +106,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5" />
                 <div>
-                  <div className="text-muted-foreground">contact@nexuscorp.com</div>
-                  <div className="text-sm text-muted-foreground">info@nexuscorp.com</div>
+                  <div className="text-muted-foreground">mayank.singh@sasrm.com</div>
+                  <div className="text-sm text-muted-foreground">info@sasrm.com</div>
                 </div>
               </div>
               

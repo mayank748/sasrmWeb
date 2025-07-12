@@ -16,8 +16,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      details: "contact@nexuscorp.com",
-      subdetails: "info@nexuscorp.com"
+      details: "mayank.singh@sasrm.com",
+      subdetails: "info@sasrm.com"
     },
     {
       icon: Phone,
