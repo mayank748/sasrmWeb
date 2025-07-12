@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.png"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,10 +17,10 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border animate-slide-in-left">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          
           <div className="flex-shrink-0 animate-fade-in">
-            <div className="text-2xl font-bold bg-gradient-to-r from-primary to-corporate-blue bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 cursor-pointer">
-              SASRM
+            <div className="flex text-2xl font-bold bg-gradient-to-r from-primary to-corporate-blue bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 cursor-pointer">
+             <img className="logoImage w-8 h-8" alt="Logo" src={logo}/> SASRM
             </div>
           </div>
 
