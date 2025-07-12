@@ -63,6 +63,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  base: '/sasrmWeb/', // 👈 IMPORTANT
+  base: '/sasrmWeb/',
 });
 
