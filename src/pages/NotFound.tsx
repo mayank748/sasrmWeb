@@ -22,7 +22,7 @@ const NotFound = () => {
                   alt="Not found"
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 /></p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
+        <a href="/home" className="text-blue-500 hover:text-blue-700 underline">
           Return to Home
         </a>
       </div>
