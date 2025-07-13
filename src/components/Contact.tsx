@@ -103,7 +103,7 @@ const Contact = () => {
 
                 <div>
                   <label className="text-sm font-medium text-foreground mb-2 block">
-                    Industry of Interest
+                    Type of request
                   </label>
                   <select className="w-full px-3 py-2 bg-background border border-border rounded-md focus:outline-none focus:border-primary">
                     <option value="">Select Type</option>
