@@ -22,7 +22,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+91 (750) 353-727",
+      details: "+91 (750) 9353-727",
       subdetails: ""
     },
     {
@@ -42,7 +42,6 @@ const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-gradient-to-b from-background to-secondary/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-corporate-blue bg-clip-text text-transparent">
@@ -55,7 +54,6 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
           <Card className="p-8 bg-card border-border/50">
             <CardContent className="p-0">
               <h3 className="text-2xl font-bold mb-6 text-foreground">Send us a Message</h3>
@@ -101,6 +99,17 @@ const Contact = () => {
                     placeholder="Your Company" 
                     className="bg-background border-border focus:border-primary"
                   />
+                </div>
+
+                <div>
+                  <label className="text-sm font-medium text-foreground mb-2 block">
+                    Industry of Interest
+                  </label>
+                  <select className="w-full px-3 py-2 bg-background border border-border rounded-md focus:outline-none focus:border-primary">
+                    <option value="">Select Type</option>
+                    <option value="Query">Query</option>
+                    <option value="Contact">Contact</option>
+                  </select>
                 </div>
 
                 <div>
