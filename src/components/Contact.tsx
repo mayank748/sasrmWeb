@@ -17,25 +17,29 @@ const Contact = () => {
       icon: Mail,
       title: "Email Us",
       details: "help@sasrm.com",
-      subdetails: ""
+      subdetails: "",
+      subdetailsPart:""
     },
     {
       icon: Phone,
       title: "Call Us",
       details: "+91 (750) 9353-727",
-      subdetails: ""
+      subdetails: "",
+      subdetailsPart:""
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "U-61/15,U- block,Sector 24",
-      subdetails: "Gurugram,Haryana,India,122002"
+      details: "U-61/15,Sector 24",
+      subdetails: "Gurugram,Haryana",
+      subdetailsPart:"India,122002"
     },
     {
       icon: Clock,
       title: "Business Hours",
       details: "Mon - Fri: 9:00 AM - 6:00 PM",
-      subdetails: "Sat - Sun: 10:00 AM - 4:00 PM"
+      subdetails: "Sat - Sun: 10:00 AM - 4:00 PM",
+      subdetailsPart:""
     }
   ];
 
@@ -167,6 +171,7 @@ const Contact = () => {
                         <h4 className="font-semibold text-foreground mb-1">{info.title}</h4>
                         <p className="text-sm text-muted-foreground">{info.details}</p>
                         <p className="text-sm text-muted-foreground">{info.subdetails}</p>
+                        <p className="text-sm text-muted-foreground">{info.subdetailsPart}</p>
                       </div>
                     </div>
                   </CardContent>
